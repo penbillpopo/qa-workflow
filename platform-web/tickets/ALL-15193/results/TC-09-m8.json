@@ -1,0 +1,34 @@
+{
+  "caseId": "TC-09",
+  "project": "platform-web",
+  "variant": "m8",
+  "status": "blocked",
+  "note": "",
+  "finishedAt": "2026-11-06T08:06:45.678Z",
+  "steps": [
+    {
+      "no": 1,
+      "desc": "登入 m8 前台",
+      "expected": "登入成功",
+      "actual": "已登入",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-09-01-登入_m8_前台.png"
+    },
+    {
+      "no": 2,
+      "desc": "英文介面：打開 Transfer，選 USDC Ethereum (ERC20)",
+      "expected": "顯示 The minimum deposit amount is 與正確金額",
+      "actual": "提示句：「The minimum deposit amount is 0.01 USDC」；USDC Ethereum (ERC20)：後端 0.0000000100，進位到 2 位應為 0.01，畫面顯示 0.01 USDC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-09-02-英文介面：打開_Transfer，選_USDC_Ethereum_(ERC20).png"
+    },
+    {
+      "no": 3,
+      "desc": "中文介面：查看語言選單有沒有中文",
+      "expected": "可以切換成中文並顯示中文提示句",
+      "actual": "m8 沒有中文介面，語言選單只有：English、Português、Español。中文這半條無法測",
+      "status": "blocked",
+      "screenshot": "screenshots/m8/TC-09-03-中文介面：查看語言選單有沒有中文.png"
+    }
+  ]
+}

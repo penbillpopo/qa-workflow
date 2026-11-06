@@ -1,0 +1,50 @@
+{
+  "caseId": "TC-08",
+  "project": "platform-web",
+  "variant": "m8",
+  "status": "passed",
+  "note": "",
+  "finishedAt": "2026-11-06T08:06:14.780Z",
+  "steps": [
+    {
+      "no": 1,
+      "desc": "登入 m8 前台",
+      "expected": "登入成功",
+      "actual": "已登入",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-08-01-登入_m8_前台.png"
+    },
+    {
+      "no": 2,
+      "desc": "打開存款視窗並切到 Transfer",
+      "expected": "顯示 Transfer 內容",
+      "actual": "已打開，可存款幣別 12 種",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-08-02-打開存款視窗並切到_Transfer.png"
+    },
+    {
+      "no": 3,
+      "desc": "選幣別甲：USDT Ethereum (ERC20)",
+      "expected": "顯示 USDT 的金額",
+      "actual": "USDT Ethereum (ERC20)：後端 0.0060000000，進位到 2 位應為 0.01，畫面顯示 0.01 USDT",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-08-03-選幣別甲：USDT_Ethereum_(ERC20).png"
+    },
+    {
+      "no": 4,
+      "desc": "換成幣別乙：USDC Solana (SOL)",
+      "expected": "金額更新為 USDC 的值，沒有殘留 USDT",
+      "actual": "USDC Solana (SOL)：後端 0.0000000100，進位到 2 位應為 0.01，畫面顯示 0.01 USDC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-08-04-換成幣別乙：USDC_Solana_(SOL).png"
+    },
+    {
+      "no": 5,
+      "desc": "再切回 USDT Ethereum (ERC20)",
+      "expected": "金額回到 USDT 的值",
+      "actual": "USDT Ethereum (ERC20)：後端 0.0060000000，進位到 2 位應為 0.01，畫面顯示 0.01 USDT",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-08-05-再切回_USDT_Ethereum_(ERC20).png"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "caseId": "TC-02",
+  "project": "platform-web",
+  "variant": "m8",
+  "status": "passed",
+  "note": "",
+  "finishedAt": "2026-11-06T08:00:24.464Z",
+  "steps": [
+    {
+      "no": 1,
+      "desc": "登入 m8 前台",
+      "expected": "登入成功",
+      "actual": "已登入",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-02-01-登入_m8_前台.png"
+    },
+    {
+      "no": 2,
+      "desc": "打開存款視窗並切到 Transfer",
+      "expected": "顯示 Transfer 內容",
+      "actual": "已打開，可存款幣別 12 種",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-02-02-打開存款視窗並切到_Transfer.png"
+    },
+    {
+      "no": 3,
+      "desc": "USDT Ethereum (ERC20)",
+      "expected": "無條件進位到 2 位",
+      "actual": "符合：USDT Ethereum (ERC20)：後端 0.0060000000，進位到 2 位應為 0.01，畫面顯示 0.01 USDT",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-02-03-USDT_Ethereum_(ERC20).png"
+    },
+    {
+      "no": 4,
+      "desc": "USDT Tron (TRC20)",
+      "expected": "無條件進位到 2 位",
+      "actual": "符合：USDT Tron (TRC20)：後端 0.0060000000，進位到 2 位應為 0.01，畫面顯示 0.01 USDT",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-02-04-USDT_Tron_(TRC20).png"
+    },
+    {
+      "no": 5,
+      "desc": "USDT Solana (SOL)",
+      "expected": "無條件進位到 2 位",
+      "actual": "符合：USDT Solana (SOL)：後端 0.0060000000，進位到 2 位應為 0.01，畫面顯示 0.01 USDT",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-02-05-USDT_Solana_(SOL).png"
+    },
+    {
+      "no": 6,
+      "desc": "USDT TON",
+      "expected": "無條件進位到 2 位",
+      "actual": "符合：USDT TON：後端 0.0060000000，進位到 2 位應為 0.01，畫面顯示 0.01 USDT",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-02-06-USDT_TON.png"
+    },
+    {
+      "no": 7,
+      "desc": "USDT BNB Smart Chain (BEP20)",
+      "expected": "無條件進位到 2 位",
+      "actual": "符合：USDT BNB Smart Chain (BEP20)：後端 0.0060000000，進位到 2 位應為 0.01，畫面顯示 0.01 USDT",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-02-07-USDT_BNB_Smart_Chain_(BEP20).png"
+    },
+    {
+      "no": 8,
+      "desc": "USDT Polygon (POL)",
+      "expected": "無條件進位到 2 位",
+      "actual": "符合：USDT Polygon (POL)：後端 0.0060000000，進位到 2 位應為 0.01，畫面顯示 0.01 USDT",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-02-08-USDT_Polygon_(POL).png"
+    },
+    {
+      "no": 9,
+      "desc": "彙整 USDT 各網路結果",
+      "expected": "每個網路都符合",
+      "actual": "6 個網路全部符合",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-02-09-彙整_USDT_各網路結果.png"
+    }
+  ]
+}

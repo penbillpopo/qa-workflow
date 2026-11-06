@@ -1,0 +1,82 @@
+{
+  "caseId": "TC-07",
+  "project": "platform-web",
+  "variant": "m8",
+  "status": "passed",
+  "note": "",
+  "finishedAt": "2026-11-06T08:05:38.585Z",
+  "steps": [
+    {
+      "no": 1,
+      "desc": "登入 m8 前台",
+      "expected": "登入成功",
+      "actual": "已登入",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-07-01-登入_m8_前台.png"
+    },
+    {
+      "no": 2,
+      "desc": "打開存款視窗並切到 Transfer",
+      "expected": "顯示 Transfer 內容",
+      "actual": "已打開，可存款幣別 12 種",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-07-02-打開存款視窗並切到_Transfer.png"
+    },
+    {
+      "no": 3,
+      "desc": "找出門檻不需要進位的幣別與網路",
+      "expected": "至少找到一組",
+      "actual": "找到 16 組：ETH Ethereum (ERC20)（0.00000001）、ETH BNB Smart Chain (BEP20)（0.00000001）、BTC Bitcoin（0.0000001）、BTC BNB Smart Chain (BEP20)（0.0000001）、BTC Ethereum (ERC20)（0.0000001）、BNB BNB Smart Chain (BEP20)（0.01）、GRAM TON（0.1）、XRP BNB Smart Chain (BEP20)（1）、XRP Ripple (XRP)（1）、SOL Solana (SOL)（0.0001）、SOL BNB Smart Chain (BEP20)（0.0001）、DOGE BNB Smart Chain (BEP20)（10）、MATIC BNB Smart Chain (BEP20)（0.0001）、MATIC Ethereum (ERC20)（0.0001）、SHIB Ethereum (ERC20)（10000）、SHIB BNB Smart Chain (BEP20)（10000）",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-07-03-找出門檻不需要進位的幣別與網路.png"
+    },
+    {
+      "no": 4,
+      "desc": "ETH Ethereum (ERC20)",
+      "expected": "與後端值相同，沒有多進一位",
+      "actual": "符合：ETH Ethereum (ERC20)：後端 0.0000000100，進位到 8 位應為 0.00000001，畫面顯示 0.00000001 ETH",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-07-04-ETH_Ethereum_(ERC20).png"
+    },
+    {
+      "no": 5,
+      "desc": "ETH BNB Smart Chain (BEP20)",
+      "expected": "與後端值相同，沒有多進一位",
+      "actual": "符合：ETH BNB Smart Chain (BEP20)：後端 0.0000000100，進位到 8 位應為 0.00000001，畫面顯示 0.00000001 ETH",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-07-05-ETH_BNB_Smart_Chain_(BEP20).png"
+    },
+    {
+      "no": 6,
+      "desc": "BTC Bitcoin",
+      "expected": "與後端值相同，沒有多進一位",
+      "actual": "符合：BTC Bitcoin：後端 0.0000001000，進位到 8 位應為 0.0000001，畫面顯示 0.00000010 BTC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-07-06-BTC_Bitcoin.png"
+    },
+    {
+      "no": 7,
+      "desc": "BTC BNB Smart Chain (BEP20)",
+      "expected": "與後端值相同，沒有多進一位",
+      "actual": "符合：BTC BNB Smart Chain (BEP20)：後端 0.0000001000，進位到 8 位應為 0.0000001，畫面顯示 0.00000010 BTC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-07-07-BTC_BNB_Smart_Chain_(BEP20).png"
+    },
+    {
+      "no": 8,
+      "desc": "BTC Ethereum (ERC20)",
+      "expected": "與後端值相同，沒有多進一位",
+      "actual": "符合：BTC Ethereum (ERC20)：後端 0.0000001000，進位到 8 位應為 0.0000001，畫面顯示 0.00000010 BTC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-07-08-BTC_Ethereum_(ERC20).png"
+    },
+    {
+      "no": 9,
+      "desc": "彙整結果",
+      "expected": "全部原樣顯示",
+      "actual": "5 組全部原樣顯示",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-07-09-彙整結果.png"
+    }
+  ]
+}

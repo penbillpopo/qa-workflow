@@ -1,0 +1,266 @@
+{
+  "caseId": "TC-03",
+  "project": "platform-web",
+  "variant": "m8",
+  "status": "passed",
+  "note": "",
+  "finishedAt": "2026-11-06T08:01:44.777Z",
+  "steps": [
+    {
+      "no": 1,
+      "desc": "登入 m8 前台",
+      "expected": "登入成功",
+      "actual": "已登入",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-01-登入_m8_前台.png"
+    },
+    {
+      "no": 2,
+      "desc": "打開存款視窗並切到 Transfer",
+      "expected": "顯示 Transfer 內容",
+      "actual": "已打開，可存款幣別 12 種",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-02-打開存款視窗並切到_Transfer.png"
+    },
+    {
+      "no": 3,
+      "desc": "ETH Ethereum (ERC20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：ETH Ethereum (ERC20)：後端 0.0000000100，進位到 8 位應為 0.00000001，畫面顯示 0.00000001 ETH",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-03-ETH_Ethereum_(ERC20).png"
+    },
+    {
+      "no": 4,
+      "desc": "ETH BNB Smart Chain (BEP20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：ETH BNB Smart Chain (BEP20)：後端 0.0000000100，進位到 8 位應為 0.00000001，畫面顯示 0.00000001 ETH",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-04-ETH_BNB_Smart_Chain_(BEP20).png"
+    },
+    {
+      "no": 5,
+      "desc": "USDT Ethereum (ERC20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：USDT Ethereum (ERC20)：後端 0.0060000000，進位到 2 位應為 0.01，畫面顯示 0.01 USDT",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-05-USDT_Ethereum_(ERC20).png"
+    },
+    {
+      "no": 6,
+      "desc": "USDT Tron (TRC20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：USDT Tron (TRC20)：後端 0.0060000000，進位到 2 位應為 0.01，畫面顯示 0.01 USDT",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-06-USDT_Tron_(TRC20).png"
+    },
+    {
+      "no": 7,
+      "desc": "USDT Solana (SOL)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：USDT Solana (SOL)：後端 0.0060000000，進位到 2 位應為 0.01，畫面顯示 0.01 USDT",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-07-USDT_Solana_(SOL).png"
+    },
+    {
+      "no": 8,
+      "desc": "USDT TON",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：USDT TON：後端 0.0060000000，進位到 2 位應為 0.01，畫面顯示 0.01 USDT",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-08-USDT_TON.png"
+    },
+    {
+      "no": 9,
+      "desc": "USDT BNB Smart Chain (BEP20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：USDT BNB Smart Chain (BEP20)：後端 0.0060000000，進位到 2 位應為 0.01，畫面顯示 0.01 USDT",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-09-USDT_BNB_Smart_Chain_(BEP20).png"
+    },
+    {
+      "no": 10,
+      "desc": "USDT Polygon (POL)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：USDT Polygon (POL)：後端 0.0060000000，進位到 2 位應為 0.01，畫面顯示 0.01 USDT",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-10-USDT_Polygon_(POL).png"
+    },
+    {
+      "no": 11,
+      "desc": "BTC Bitcoin",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：BTC Bitcoin：後端 0.0000001000，進位到 8 位應為 0.0000001，畫面顯示 0.00000010 BTC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-11-BTC_Bitcoin.png"
+    },
+    {
+      "no": 12,
+      "desc": "BTC BNB Smart Chain (BEP20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：BTC BNB Smart Chain (BEP20)：後端 0.0000001000，進位到 8 位應為 0.0000001，畫面顯示 0.00000010 BTC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-12-BTC_BNB_Smart_Chain_(BEP20).png"
+    },
+    {
+      "no": 13,
+      "desc": "BTC Ethereum (ERC20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：BTC Ethereum (ERC20)：後端 0.0000001000，進位到 8 位應為 0.0000001，畫面顯示 0.00000010 BTC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-13-BTC_Ethereum_(ERC20).png"
+    },
+    {
+      "no": 14,
+      "desc": "USDC Ethereum (ERC20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：USDC Ethereum (ERC20)：後端 0.0000000100，進位到 2 位應為 0.01，畫面顯示 0.01 USDC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-14-USDC_Ethereum_(ERC20).png"
+    },
+    {
+      "no": 15,
+      "desc": "USDC Solana (SOL)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：USDC Solana (SOL)：後端 0.0000000100，進位到 2 位應為 0.01，畫面顯示 0.01 USDC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-15-USDC_Solana_(SOL).png"
+    },
+    {
+      "no": 16,
+      "desc": "USDC Polygon (POL)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：USDC Polygon (POL)：後端 0.0000000100，進位到 2 位應為 0.01，畫面顯示 0.01 USDC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-16-USDC_Polygon_(POL).png"
+    },
+    {
+      "no": 17,
+      "desc": "USDC BNB Smart Chain (BEP20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：USDC BNB Smart Chain (BEP20)：後端 0.0000000100，進位到 2 位應為 0.01，畫面顯示 0.01 USDC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-17-USDC_BNB_Smart_Chain_(BEP20).png"
+    },
+    {
+      "no": 18,
+      "desc": "USDC TON",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：USDC TON：後端 0.0000000100，進位到 2 位應為 0.01，畫面顯示 0.01 USDC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-18-USDC_TON.png"
+    },
+    {
+      "no": 19,
+      "desc": "USDC Tron (TRC20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：USDC Tron (TRC20)：後端 0.0000000100，進位到 2 位應為 0.01，畫面顯示 0.01 USDC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-19-USDC_Tron_(TRC20).png"
+    },
+    {
+      "no": 20,
+      "desc": "BNB BNB Smart Chain (BEP20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：BNB BNB Smart Chain (BEP20)：後端 0.0100000000，進位到 6 位應為 0.01，畫面顯示 0.010000 BNB",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-20-BNB_BNB_Smart_Chain_(BEP20).png"
+    },
+    {
+      "no": 21,
+      "desc": "GRAM TON",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：GRAM TON：後端 0.1000000000，進位到 6 位應為 0.1，畫面顯示 0.100000 GRAM",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-21-GRAM_TON.png"
+    },
+    {
+      "no": 22,
+      "desc": "XRP BNB Smart Chain (BEP20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：XRP BNB Smart Chain (BEP20)：後端 1.0000000000，進位到 6 位應為 1，畫面顯示 1.000000 XRP",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-22-XRP_BNB_Smart_Chain_(BEP20).png"
+    },
+    {
+      "no": 23,
+      "desc": "XRP Ripple (XRP)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：XRP Ripple (XRP)：後端 1.0000000000，進位到 6 位應為 1，畫面顯示 1.000000 XRP",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-23-XRP_Ripple_(XRP).png"
+    },
+    {
+      "no": 24,
+      "desc": "SOL Solana (SOL)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：SOL Solana (SOL)：後端 0.0001000000，進位到 6 位應為 0.0001，畫面顯示 0.000100 SOL",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-24-SOL_Solana_(SOL).png"
+    },
+    {
+      "no": 25,
+      "desc": "SOL BNB Smart Chain (BEP20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：SOL BNB Smart Chain (BEP20)：後端 0.0001000000，進位到 6 位應為 0.0001，畫面顯示 0.000100 SOL",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-25-SOL_BNB_Smart_Chain_(BEP20).png"
+    },
+    {
+      "no": 26,
+      "desc": "DOGE BNB Smart Chain (BEP20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：DOGE BNB Smart Chain (BEP20)：後端 10.0000000000，進位到 6 位應為 10，畫面顯示 10.000000 DOGE",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-26-DOGE_BNB_Smart_Chain_(BEP20).png"
+    },
+    {
+      "no": 27,
+      "desc": "MATIC BNB Smart Chain (BEP20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：MATIC BNB Smart Chain (BEP20)：後端 0.0001000000，進位到 6 位應為 0.0001，畫面顯示 0.000100 MATIC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-27-MATIC_BNB_Smart_Chain_(BEP20).png"
+    },
+    {
+      "no": 28,
+      "desc": "MATIC Ethereum (ERC20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：MATIC Ethereum (ERC20)：後端 0.0001000000，進位到 6 位應為 0.0001，畫面顯示 0.000100 MATIC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-28-MATIC_Ethereum_(ERC20).png"
+    },
+    {
+      "no": 29,
+      "desc": "TRX Tron (TRC20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：TRX Tron (TRC20)：後端 0.0000000100，進位到 6 位應為 0.000001，畫面顯示 0.000001 TRX",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-29-TRX_Tron_(TRC20).png"
+    },
+    {
+      "no": 30,
+      "desc": "SHIB Ethereum (ERC20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：SHIB Ethereum (ERC20)：後端 10000.0000000000，進位到 6 位應為 10000，畫面顯示 10000.0000 SHIB",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-30-SHIB_Ethereum_(ERC20).png"
+    },
+    {
+      "no": 31,
+      "desc": "SHIB BNB Smart Chain (BEP20)",
+      "expected": "等於依位數無條件進位的結果，不低於門檻",
+      "actual": "符合：SHIB BNB Smart Chain (BEP20)：後端 10000.0000000000，進位到 6 位應為 10000，畫面顯示 10000.0000 SHIB",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-31-SHIB_BNB_Smart_Chain_(BEP20).png"
+    },
+    {
+      "no": 32,
+      "desc": "彙整所有幣別與網路的比對表",
+      "expected": "全部符合，沒有任何一組低於門檻",
+      "actual": "29 組全部符合，比對表存在 results/TC-03-比對表.md",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-03-32-彙整所有幣別與網路的比對表.png"
+    }
+  ]
+}

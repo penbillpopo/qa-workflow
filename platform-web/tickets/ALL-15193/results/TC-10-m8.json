@@ -1,0 +1,42 @@
+{
+  "caseId": "TC-10",
+  "project": "platform-web",
+  "variant": "m8",
+  "status": "passed",
+  "note": "",
+  "finishedAt": "2026-11-06T08:07:08.471Z",
+  "steps": [
+    {
+      "no": 1,
+      "desc": "登入 m8 前台",
+      "expected": "登入成功",
+      "actual": "已登入",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-10-01-登入_m8_前台.png"
+    },
+    {
+      "no": 2,
+      "desc": "打開存款視窗並切到 Transfer",
+      "expected": "手機排版顯示 Transfer 內容",
+      "actual": "已打開，可存款幣別 12 種",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-10-02-打開存款視窗並切到_Transfer.png"
+    },
+    {
+      "no": 3,
+      "desc": "選 USDC Ethereum (ERC20)",
+      "expected": "金額完整顯示，不截斷、不錯位",
+      "actual": "完整顯示「The minimum deposit amount is 0.01 USDC」；USDC Ethereum (ERC20)：後端 0.0000000100，進位到 2 位應為 0.01，畫面顯示 0.01 USDC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-10-03-選_USDC_Ethereum_(ERC20).png"
+    },
+    {
+      "no": 4,
+      "desc": "選 BTC Bitcoin（8 位小數）",
+      "expected": "金額完整顯示，不截斷、不錯位",
+      "actual": "完整顯示「The minimum deposit amount is 0.00000010 BTC」；BTC Bitcoin：後端 0.0000001000，進位到 8 位應為 0.0000001，畫面顯示 0.00000010 BTC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-10-04-選_BTC_Bitcoin（8_位小數）.png"
+    }
+  ]
+}

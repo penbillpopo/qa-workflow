@@ -1,0 +1,50 @@
+{
+  "caseId": "TC-05",
+  "project": "platform-web",
+  "variant": "m8",
+  "status": "passed",
+  "note": "",
+  "finishedAt": "2026-11-06T08:02:56.994Z",
+  "steps": [
+    {
+      "no": 1,
+      "desc": "登入 m8 前台",
+      "expected": "登入成功",
+      "actual": "已登入",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-05-01-登入_m8_前台.png"
+    },
+    {
+      "no": 2,
+      "desc": "打開存款視窗並切到 Transfer",
+      "expected": "顯示 Transfer 內容",
+      "actual": "已打開，可存款幣別 12 種",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-05-02-打開存款視窗並切到_Transfer.png"
+    },
+    {
+      "no": 3,
+      "desc": "ETH Ethereum (ERC20)",
+      "expected": "無條件進位到 8 位",
+      "actual": "符合：ETH Ethereum (ERC20)：後端 0.0000000100，進位到 8 位應為 0.00000001，畫面顯示 0.00000001 ETH",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-05-03-ETH_Ethereum_(ERC20).png"
+    },
+    {
+      "no": 4,
+      "desc": "ETH BNB Smart Chain (BEP20)",
+      "expected": "無條件進位到 8 位",
+      "actual": "符合：ETH BNB Smart Chain (BEP20)：後端 0.0000000100，進位到 8 位應為 0.00000001，畫面顯示 0.00000001 ETH",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-05-04-ETH_BNB_Smart_Chain_(BEP20).png"
+    },
+    {
+      "no": 5,
+      "desc": "彙整結果",
+      "expected": "全部符合",
+      "actual": "2 組全部符合",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-05-05-彙整結果.png"
+    }
+  ]
+}

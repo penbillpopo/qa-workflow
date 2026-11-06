@@ -1,0 +1,58 @@
+{
+  "caseId": "TC-04",
+  "project": "platform-web",
+  "variant": "m8",
+  "status": "passed",
+  "note": "",
+  "finishedAt": "2026-11-06T08:02:22.520Z",
+  "steps": [
+    {
+      "no": 1,
+      "desc": "登入 m8 前台",
+      "expected": "登入成功",
+      "actual": "已登入",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-04-01-登入_m8_前台.png"
+    },
+    {
+      "no": 2,
+      "desc": "打開存款視窗並切到 Transfer",
+      "expected": "顯示 Transfer 內容",
+      "actual": "已打開，可存款幣別 12 種",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-04-02-打開存款視窗並切到_Transfer.png"
+    },
+    {
+      "no": 3,
+      "desc": "BTC Bitcoin",
+      "expected": "無條件進位到 8 位",
+      "actual": "符合：BTC Bitcoin：後端 0.0000001000，進位到 8 位應為 0.0000001，畫面顯示 0.00000010 BTC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-04-03-BTC_Bitcoin.png"
+    },
+    {
+      "no": 4,
+      "desc": "BTC BNB Smart Chain (BEP20)",
+      "expected": "無條件進位到 8 位",
+      "actual": "符合：BTC BNB Smart Chain (BEP20)：後端 0.0000001000，進位到 8 位應為 0.0000001，畫面顯示 0.00000010 BTC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-04-04-BTC_BNB_Smart_Chain_(BEP20).png"
+    },
+    {
+      "no": 5,
+      "desc": "BTC Ethereum (ERC20)",
+      "expected": "無條件進位到 8 位",
+      "actual": "符合：BTC Ethereum (ERC20)：後端 0.0000001000，進位到 8 位應為 0.0000001，畫面顯示 0.00000010 BTC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-04-05-BTC_Ethereum_(ERC20).png"
+    },
+    {
+      "no": 6,
+      "desc": "彙整結果",
+      "expected": "全部符合",
+      "actual": "3 組全部符合",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-04-06-彙整結果.png"
+    }
+  ]
+}

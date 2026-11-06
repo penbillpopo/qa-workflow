@@ -1,0 +1,34 @@
+{
+  "caseId": "TC-01",
+  "project": "platform-web",
+  "variant": "m8",
+  "status": "passed",
+  "note": "",
+  "finishedAt": "2026-11-06T07:59:41.725Z",
+  "steps": [
+    {
+      "no": 1,
+      "desc": "登入 m8 前台",
+      "expected": "登入成功",
+      "actual": "已登入",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-01-01-登入_m8_前台.png"
+    },
+    {
+      "no": 2,
+      "desc": "打開存款視窗並切到 Transfer",
+      "expected": "顯示 Transfer 內容",
+      "actual": "已打開，可存款幣別 12 種",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-01-02-打開存款視窗並切到_Transfer.png"
+    },
+    {
+      "no": 3,
+      "desc": "選 USDC 與 Ethereum (ERC20) 並讀取最低金額",
+      "expected": "後端 0.00000001 時顯示 0.01 USDC，不會是 0",
+      "actual": "USDC Ethereum (ERC20)：後端 0.0000000100，進位到 2 位應為 0.01，畫面顯示 0.01 USDC",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-01-03-選_USDC_與_Ethereum_(ERC20)_並讀取最低金額.png"
+    }
+  ]
+}

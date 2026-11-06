@@ -1,0 +1,34 @@
+{
+  "caseId": "TC-11",
+  "project": "platform-web",
+  "variant": "m8",
+  "status": "blocked",
+  "note": "",
+  "finishedAt": "2026-11-06T08:08:01.989Z",
+  "steps": [
+    {
+      "no": 1,
+      "desc": "登入 m8 前台",
+      "expected": "登入成功",
+      "actual": "已登入",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-11-01-登入_m8_前台.png"
+    },
+    {
+      "no": 2,
+      "desc": "打開存款視窗並切到 Transfer",
+      "expected": "顯示 Transfer 內容",
+      "actual": "已打開，可存款幣別 12 種",
+      "status": "passed",
+      "screenshot": "screenshots/m8/TC-11-02-打開存款視窗並切到_Transfer.png"
+    },
+    {
+      "no": 3,
+      "desc": "找出 Transfer 頁除了最低金額之外的其他金額",
+      "expected": "列出找到的其他金額",
+      "actual": "Transfer 頁除了最低金額之外，畫面上沒有其他金額（沒有換算金額或上限）可以比對。建議改成人工測，或確認這條是否適用 Transfer 頁",
+      "status": "blocked",
+      "screenshot": "screenshots/m8/TC-11-03-找出_Transfer_頁除了最低金額之外的其他金額.png"
+    }
+  ]
+}
