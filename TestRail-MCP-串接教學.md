@@ -1,5 +1,7 @@
 # TestRail MCP 串接教學
 
+> 這份是早期只串 TestRail 的教學，已由 `README.md` 取代。新電腦請照 `README.md` 操作，或在 Claude 裡輸入 `/qa-help`。
+
 Nov 4, 2026 · @Ban
 
 ## 這份文件做什麼

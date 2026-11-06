@@ -1,0 +1,6 @@
+# Windows 腳本固定使用 CRLF 換行，避免在 Windows 上執行出錯
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+# 其餘文字檔用 LF
+*.mjs text eol=lf
+*.md text eol=lf

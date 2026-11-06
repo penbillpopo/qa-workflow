@@ -3,3 +3,6 @@
 .env.*
 !.env.example
 .playwright-mcp/
+node_modules/
+.auth/
+tmp/
